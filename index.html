@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>REGISTER</title>
+  </head>
+  <style>
+        body{
+          background-repeat: no-repeat;
+          background-size:1950px 970px;
+            background-image: url('https://images.unsplash.com/photo-1546198632-9ef6368bef12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+        }
+        .container{
+        border: 2px solid black;
+        margin: 182px 430px;
+        padding: 75px;
+        border-radius:28px ;
+        width: 33%;
+      }
+      .form-group input{
+        text-align: center;
+        display: block;
+        width: 356px;
+        border: 2px solid black;
+        margin: 11px auto;
+        padding: 1px;
+        border-radius: 8px;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    .container button{
+        text-align: center;
+        display: block;
+        width: 30%;
+        margin: 20px auto;
+
+    }
+    .container button:hover{
+        background-color: white;
+    }
+  </style>
+  <body>
+     <form class="container" action="/login" method="post">
+      <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="user_name" placeholder="Enter Your Name">
+        </div>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="user_email" placeholder="Enter Your Email">
+            </div>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="user_password" placeholder="Enter Your Password">
+                </div>
+      <button type="submit" name="button">REGISTER</button>
+    </form>
+
+  </body>
+</html>
